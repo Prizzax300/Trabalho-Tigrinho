@@ -78,6 +78,14 @@ public class Main {
             System.out.println("Não informe senhas ou códigos.");
             System.out.println("Não realize pagamentos.");
         }
+        System.out.println();
+        System.out.println("======================================");
+        System.out.println("AVISO:");
+        System.out.println("Esta analise e baseada em padroes de texto.");
+        System.out.println("Nenhuma mensagem pode ser considerada 100% segura.");
+        System.out.println("Mesmo com risco baixo, tenha cuidado e");
+        System.out.println("não compartilhe dados pessoais ou senhas.");
+        System.out.println("======================================");
 
         scanner.close();
     }
